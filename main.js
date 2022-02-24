@@ -9,8 +9,7 @@ const randomProfession = chance.profession();
 const randomYear = chance.year();
 const randomCity = chance.city();
 const randomAnimal = chance.animal();
-const randomNumber = chance.integer();
-chance.integer({ min: 1, max: 1000 });
+const randomNumber = chance.integer({ min: 1, max: 1000 });
 
 document.querySelector("#app").innerHTML = `
   <img src="${randomAvatar}"/>
